@@ -1,0 +1,197 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    /*border: 1px solid grey;*/
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #8327ED;
+    text-decoration: none;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(#e4f2b9, #96ca2f );
+    background: -webkit-linear-gradient(#e4f2b9, #96ca2f );
+    background: -o-linear-gradient(#e4f2b9, #96ca2f );
+    background: -moz-linear-gradient(#e4f2b9, #96ca2f );
+    width: 400px;
+    height: 50px;
+    padding: 20px 10px 0px 10px;
+    margin-top: 15px;
+    
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color:#F5511E;
+    background: white url(Images/Search.png) right center no-repeat;
+    border: 1px solid #CED97C;
+}
+    
+
+.submit{
+    float: right;
+    color: white;
+    background-color: #8327ED;
+    font-weight: bold;
+    padding:5px;
+    font-size: 15px;
+    border: 1px solid #CED97C;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#F7F0B0,#D7CA2D);
+    background: -webkit-linear-gradient(#F7F0B0,#D7CA2D);
+    background: -o-linear-gradient(#F7F0B0,#D7CA2D);
+    background: -moz-linear-gradient(#F7F0B0,#D7CA2D);
+    padding: 7px 0px;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;      
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:#5d12e7; 
+    line-height: 30px; 
+    -webkit-transition: font-size 0.3s ease; /*firefox*/ /*pt tranzitia aia in care daca pun cursorul peste link, el creste usor*/
+    -moz-transition: font-size 0.3s ease; /*mozilla*/
+    -o-transition: font-size 0.3s ease; /*opera*/
+    -ms-transition: font-size 0.3s ease; /*internet explore*/
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    color:#b314db;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#introduction{
+    background: linear-gradient(#e4f2b9, #96ca2f );
+    background: -webkit-linear-gradient(#e4f2b9, #96ca2f );
+    background: -o-linear-gradient(#e4f2b9, #96ca2f );
+    background: -moz-linear-gradient(#e4f2b9, #96ca2f );
+    padding: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#introduction h3{
+    color: #316901;
+    font-size: 45px;
+    font-weight: normal; 
+}
+
+#introduction p{
+    color:#628F19;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #BAF46F;
+    border-radius: 4%;
+    padding: 10px 20px;        
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    -webkit-transition: font-size 0.3s ease; /*firefox*/ /*pt tranzitia aia in care daca pun cursorul peste link, el creste usor*/
+    -moz-transition: font-size 0.3s ease; /*mozilla*/
+    -o-transition: font-size 0.3s ease; /*opera*/
+    -ms-transition: font-size 0.3s ease; /*internet explore*/
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    color: #b314db ;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-top: 4px;
+    list-style-image: url(Images/arrow.png);
+}
+
+#rightsidebar ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    list-style-image: url(images/tick.png);
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+.sidebar h3{
+    color: #8327ED;
+    font-size: 30px;
+}
+
+.footer{
+    height: 70px;
+    background: linear-gradient(#F7F0B0,#D7CA2D);
+    background: -webkit-linear-gradient(#F7F0B0,#D7CA2D);
+    background: -o-linear-gradient(#F7F0B0,#D7CA2D);
+    background: -moz-linear-gradient(#F7F0B0,#D7CA2D);   
+    padding: 10px 30px;
+    margin-top: 15px ;
+}
+
